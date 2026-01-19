@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+:root {
+    --rose: #EE6F8C;
+    --green: #7DC557;
+    --purple: #9b75c2;
+    --yellow: #fcc23a;
+    --teal: #4dc5c3;
+    --red: #ff3d3d;
+    --orange: #f79335;
+    --grafitti: #595959; /*main font color */
+    --blue: #5aa9e6;
+
+    --light-rose: #F4DBE1;
+    --light-blue: #DEEEFA;
+    --light-orange: #F6E2CF;
+    --light-green: #DEECD6;
+
+    --heading1: 40px;
+    --heading2: 32px;
+    --body-text: 24px;
+    --caption-text: 16px;
+
+    --main-font: "Nunito Sans", sans serif;
+
+    --h-wgt: bold;
+    --body-text-wgt: semibold;
+
+}
+
+/* @layer components {
+    .primary-btn {
+        @apply
+    }
+
+    .secundary-btn {
+        @apply
+    }
+
+    .card {
+        @apply
+    }
+} */
