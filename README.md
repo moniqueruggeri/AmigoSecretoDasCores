@@ -59,7 +59,7 @@ src/
  ├─ components/   # Componentes reutilizáveis de UI
  ├─ services/     # Lógica de negócio (eventos, sorteio, tokens)
  ├─ styles/       # Estilos globais e design system
- └─ App.tsx
+ └─ App.jsx
 ```
 
 ## 🧠 Aprendizados
