@@ -1,16 +1,74 @@
-# React + Vite
+# 🎁🌈 Amigo Secreto das Cores
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Amigo Secreto das Cores** é um web app que reinventa a brincadeira de amigo secreto usando **cores em vez de nomes**.
 
-Currently, two official plugins are available:
+Em vez de sortear uma pessoa, cada participante recebe **uma cor secreta**.  
+A regra é simples: cada pessoa compra presentes **da sua cor** para **todo o grupo**.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+O objetivo do projeto é tornar o amigo secreto mais **divertido, organizado e criativo**, mantendo tudo simples e fácil de usar.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## ✨ Funcionalidades
 
-## Expanding the ESLint configuration
+- Criar eventos de amigo secreto por cores  
+- Escolher as cores do sorteio  
+- Adicionar participantes  
+- Sortear uma cor para cada participante  
+- Página individual com a **cor secreta** de cada pessoa  
+- Dashboard simples para visualizar eventos criados  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🎨 Conceito
+
+- Sorteio baseado em **cores**, não em nomes  
+- Cada participante compra presentes **da cor sorteada**  
+- Todos recebem presentes de **todas as cores**  
+- Interface clara, amigável e focada na experiência do usuário  
+
+---
+
+## 🛠️ Tecnologias utilizadas
+
+- **React**
+- **Vite**
+- **Tailwind CSS**
+- **JavaScript / TypeScript**
+- **Git & GitHub**
+
+---
+
+## 🚀 MVP (Minimum Viable Product)
+
+Este projeto foi desenvolvido com foco em um **MVP**, priorizando:
+
+- Funcionalidade principal (sorteio por cores)
+- Interface consistente e intuitiva
+- Código organizado e escalável
+
+Funcionalidades avançadas como autenticação completa, envio de convites por email e sugestões de presentes estão planejadas para versões futuras.
+
+---
+
+## 📂 Estrutura do projeto
+
+```txt
+src/
+ ├─ pages/        # Páginas principais do app
+ ├─ components/   # Componentes reutilizáveis de UI
+ ├─ services/     # Lógica de negócio (eventos, sorteio, tokens)
+ ├─ styles/       # Estilos globais e design system
+ └─ App.tsx
+```
+
+## 🧠 Aprendizados
+- Planejamento de produto com foco em MVP
+- Criação e aplicação de design system
+- Separação de responsabilidades entre UI e lógica
+- Estruturação de um projeto front-end para portfólio
+
+## 💜 Autora
+Desenvolvido por **Monique Ruggeri**
+Projeto criado para estudo, portfólio e experimentação de produto digital.
+
