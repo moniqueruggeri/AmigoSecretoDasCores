@@ -1,43 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
 @import "tailwindcss";
 
 :root {
-    --rose: #EE6F8C;
-    --green: #7DC557;
-    --purple: #9b75c2;
-    --yellow: #fcc23a;
-    --teal: #4dc5c3;
-    --red: #ff3d3d;
-    --orange: #f79335;
-    --grafitti: #595959; /*main font color */
-    --blue: #5aa9e6;
+  --rose: #ee6f8c;
+  --green: #7dc557;
+  --purple: #9b75c2;
+  --yellow: #fcc23a;
+  --teal: #4dc5c3;
+  --red: #ff3d3d;
+  --orange: #f79335;
+  --grafitti: #595959; /*main font color */
+  --blue: #5aa9e6;
 
-    --light-rose: #F4DBE1;
-    --light-blue: #DEEEFA;
-    --light-orange: #F6E2CF;
-    --light-green: #DEECD6;
+  --light-rose: #f4dbe1;
+  --light-blue: #deeefa;
+  --light-orange: #f6e2cf;
+  --light-green: #deecd6;
 
-    --heading1: 40px;
-    --heading2: 32px;
-    --body-text: 24px;
-    --caption-text: 16px;
+  --heading1: 40px;
+  --heading2: 32px;
+  --body-text: 22px;
+  --caption-text: 16px;
 
-    --main-font: "Nunito Sans", sans serif;
+  --main-font: "Nunito", sans-serif;
 
-    --h-wgt: bold;
-    --body-text-wgt: semibold;
+  --h-wgt: bold;
+  --body-text-wgt: semibold;
 
+  --img-bg: url("./assets/img/logo.png");
 }
 
-/* @layer components {
-    .primary-btn {
-        @apply
-    }
+@layer components {
+  body {
+    @apply text-[color:var(--grafitti)] bg-[#f6f6f6];
+  }
 
-    .secundary-btn {
-        @apply
-    }
+  .heading-section {
+    @apply text-[length:var(--heading2)] font-bold;
+  }
 
-    .card {
-        @apply
-    }
-} */
+  .subtitle,
+  .btn {
+    @apply text-(length:--body-text) font-semibold;
+  }
+
+  .heading-section,
+  .subtitle,
+  .btn {
+    font-family: var(--main-font);
+  }
+
+  .btn {
+    @apply py-3 px-1 rounded-xl text-white w-full;
+  }
+
+  .primary-btn {
+    @apply bg-(--rose);
+  }
+
+  .sec-btn {
+    @apply bg-(--purple);
+  }
+
+  .card {
+    @apply flex;
+  }
+
+  .list {
+    @apply flex justify-between gap-4 items-center;
+  }
+
+  .hero {
+    @apply relative overflow-hidden;
+  }
+
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+
+    background-image: url("./assets/img/symbol.png");
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+
+    opacity: 0.1;
+    transform: rotate(25deg);
+
+    pointer-events: none;
+    z-index: -2;
+  }
+
+  .main {
+    @apply relative overflow-hidden;
+  }
+
+  .main::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    top: 280px;
+
+    background-image: url("./assets/img/background.png");
+    background-repeat: repeat;
+    background-position: center;
+    background-size:cover;
+
+    opacity: 0.8;
+    pointer-events: none;
+    z-index: -3;
+  }
+}
