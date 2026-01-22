@@ -11,11 +11,11 @@ export default function Regras() {
         </li>
         <li className="list">
           <CircleCheck className="w-6 h-6 shrink-0 text-(--green)"/>
-          <p>Compra de presentes da cor</p>
+          <p>Os presentes devem ser da cor sorteada</p>
         </li>
         <li className="list">
           <CircleCheck className="w-6 h-6 shrink-0 text-(--green)"/>
-          <p className="w-full">Todos ganham presente de todas as cores</p>
+          <p className="w-full">Todos recebem presentes de todas as cores</p>
         </li>
       </u>
     </section>

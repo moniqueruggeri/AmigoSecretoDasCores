@@ -5,7 +5,7 @@ const cardsData = [
   {
     id:1,
     title: "Crie um evento",
-    desc: "Crie o evento e convide seus amigos",
+    desc: "Dê um nome ao evento e convide seus amigos para participar.",
     icon: Users,
     bgColor: "bg-(--light-rose)",
     iconColor: "text-(--rose)",
@@ -13,7 +13,7 @@ const cardsData = [
   {
     id:2,
     title: "Escolha as cores",
-    desc: "Crie o evento e convide seus amigos",
+    desc: "Defina as cores que farão parte do sorteio.",
     icon: Palette,
     bgColor: "bg-(--light-blue)",
     iconColor: "text-(--blue)",
@@ -21,7 +21,7 @@ const cardsData = [
   {
     id:3,
     title: "Defina um orçamento",
-    desc: "Crie o evento e convide seus amigos",
+    desc: "Escolha um valor de referência para os presentes.",
     icon: BadgeEuro,
     bgColor: "bg-(--light-orange)",
     iconColor: "text-(--orange)",
@@ -29,7 +29,7 @@ const cardsData = [
   {
     id:4,
     title: "Sorteio Secreto",
-    desc: "Crie o evento e convide seus amigos",
+    desc: "Cada participante recebe uma cor secreta.",
     icon: Dices,
     bgColor: "bg-(--light-green)",
     iconColor: "text-(--green)",
