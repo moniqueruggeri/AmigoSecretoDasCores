@@ -1,4 +1,4 @@
-import Regras from "../Regras";
+import Regras from "./Regras";
 import CTAFinal from "./CTAFinal";
 import ComoFunciona from "./ComoFunciona";
 import Hero from "./Hero";

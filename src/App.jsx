@@ -9,11 +9,21 @@ import PoliticaDePrivacidade from "./assets/pages/PoliticaDePrivacidade"
 import CriarEvento from "./assets/pages/CriarEvento";
 import SaibaMais from "./assets/pages/SaibaMais"
 import EntreComCodigo from "./assets/pages/EntreComCodigo";
+import Login from "./assets/pages/LoginPage";
+import CriarConta from "./assets/pages/CriarConta";
+import EsqueciMinhaSenha from "./assets/pages/EsqueciMinhaSenha";
+import Dashboard from "./assets/pages/Dashboard";
+import Evento from "./assets/pages/Evento";
 
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home/>}/>
+      <Route path="/" element={<Login/>}/>
+      <Route path="/criarconta" element={<CriarConta/>}/>
+      <Route path="/esqueciminhasenha" element={<EsqueciMinhaSenha/>}/>
+      <Route path="/dashboard" element={<Dashboard/>}/>
+      <Route path="/evento" element={<Evento/>}/>
+      {/* <Route path="/" element={<Home/>}/>
       <Route path="/comofunciona" element={<ComoFunciona/>}/>
       <Route path="/sobre" element={<Sobre/>}/>
       <Route path="/faq" element={<FAQ/>}/>
@@ -21,7 +31,7 @@ export default function App() {
       <Route path="/contato" element={<Contato/>}/>
       <Route path="/criarevento" element={<CriarEvento/>}/>
       <Route path="/saibamais" element={<SaibaMais/>}/>
-      <Route path="/entrecomcodigo" element={<EntreComCodigo/>}/>
+      <Route path="/entrecomcodigo" element={<EntreComCodigo/>}/> */}
     </Routes>
   );
 }

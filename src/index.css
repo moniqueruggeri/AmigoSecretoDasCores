@@ -95,7 +95,8 @@
     @apply relative overflow-hidden flex flex-col justify-center md:px-30;
   }
 
-  .main::before {
+  .main::before,
+  .login::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -109,5 +110,9 @@
     opacity: 0.8;
     pointer-events: none;
     z-index: -3;
+  }
+
+  .login::before {
+    top: 0;
   }
 }

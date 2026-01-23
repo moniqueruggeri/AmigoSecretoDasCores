@@ -1,5 +1,3 @@
-import { Icon, Users } from "lucide-react";
-
 export default function Cards({desc, title, icon:Icon, bgColor, iconColor}) {
   return (
     <>
