@@ -2,8 +2,8 @@ import { CircleCheck } from "lucide-react";
 
 export default function Regras() {
   return (
-    <section className="px-8">
-      <h1 className="heading-section">Regras</h1>
+    <section className="px-8 md:w-250">
+      <h1 className="heading-section pb-4">Regras</h1>
       <u className="list-none no-underline bg-white flex flex-col gap-7 text-(length:--body-text) shadow-xl p-9 rounded-2xl">
         <li className="list">
           <CircleCheck  className="w-6 h-6 shrink-0 text-(--green)"/>

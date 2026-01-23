@@ -2,8 +2,7 @@ import Button from "../Button";
 
 export default function CTAFinal() {
   return (
-    <section className="p-8 flex flex-col gap-3
-    ">
+    <section className="p-8 flex flex-col gap-3 md:pb-0 self-baseline-last">
       <h2 className="heading-section">Pronto pra começar?</h2>
       <p className="subtitle">
       Crie seu evento agora e organize um amigo secreto diferente de tudo que você já viu.

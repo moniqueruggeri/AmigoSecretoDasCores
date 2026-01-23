@@ -92,7 +92,7 @@
   }
 
   .main {
-    @apply relative overflow-hidden;
+    @apply relative overflow-hidden flex flex-col justify-center md:px-30;
   }
 
   .main::before {

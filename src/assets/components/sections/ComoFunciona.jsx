@@ -38,9 +38,9 @@ const cardsData = [
 
 export default function ComoFunciona() {
   return (
-    <section className="p-8 flex flex-col gap-4">
+    <section className="p-8 flex flex-col gap-4 md:w-[950px] m-auto">
       <h2 className="heading-section">Como Funciona</h2>
-      <ul className="flex flex-col gap-6">
+      <ul className="flex flex-col gap-6 md:flex-row items-stretch">
         {cardsData.map((card) => (
           <Cards
             key={card.id}
