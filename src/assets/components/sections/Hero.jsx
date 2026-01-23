@@ -1,6 +1,7 @@
 import Button from "../Button";
 import naming from "../../img/naming.png";
 import desktopImg from "../../img/desktop-img.png";
+import { Link } from "react-router-dom";
 
 export default function Hero() {
   return (
@@ -15,8 +16,12 @@ export default function Hero() {
             mais divertido.
           </h2>
           <div className="flex justify-between gap-3 md:pt-8">
-            <Button className={"btn primary-btn"} text={"Criar evento"} />
-            <Button className={"btn sec-btn"} text={"Saiba mais"} />
+            <Link to={"/criarevento"} className="w-full">
+              <Button className={"btn primary-btn"} text={"Criar evento"} />
+            </Link>
+            <Link to={"/saibamais"} className="w-full">
+              <Button className={"btn sec-btn"} text={"Saiba mais"} />
+            </Link>
           </div>
         </div>
         <img
