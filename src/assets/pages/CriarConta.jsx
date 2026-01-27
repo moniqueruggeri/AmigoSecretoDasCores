@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import LoginForm from "../components/LoginForm";
 import Footer from "../components/sections/Footer";
 import Logo from "../img/logo-v.png";
+import CriarContaForm from "./CriarContaForm";
 
 export default function CriarConta() {
   return (
@@ -17,7 +18,7 @@ export default function CriarConta() {
             <p className="subtitle">
               Crie sua conta e comece a criar seus evetos.
             </p>
-            <LoginForm />
+            <CriarContaForm />
             <div className="flex justify-center subtitle text-(--blue) pb-6 ">
               <Link to={"/"}>Já tem conta? Entrar</Link>
             </div>

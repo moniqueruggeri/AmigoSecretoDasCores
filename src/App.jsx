@@ -18,19 +18,19 @@ import Evento from "./assets/pages/Evento";
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Login/>}/>
-      <Route path="/criarconta" element={<CriarConta/>}/>
-      <Route path="/esqueciminhasenha" element={<EsqueciMinhaSenha/>}/>
+      {/* <Route path="/" element={<Login/>}/> */}
+      {/* <Route path="/" element={<CriarConta/>}/> */}
+      {/* <Route path="/esqueciminhasenha" element={<EsqueciMinhaSenha/>}/>
       <Route path="/dashboard" element={<Dashboard/>}/>
       <Route path="/evento" element={<Evento/>}/>
-      {/* <Route path="/" element={<Home/>}/>
+      <Route path="/" element={<Home/>}/>
       <Route path="/comofunciona" element={<ComoFunciona/>}/>
       <Route path="/sobre" element={<Sobre/>}/>
       <Route path="/faq" element={<FAQ/>}/>
       <Route path="/politicadeprivacidade" element={<PoliticaDePrivacidade/>}/>
-      <Route path="/contato" element={<Contato/>}/>
-      <Route path="/criarevento" element={<CriarEvento/>}/>
-      <Route path="/saibamais" element={<SaibaMais/>}/>
+      <Route path="/contato" element={<Contato/>}/> */}
+      <Route path="/" element={<CriarEvento/>}/>
+      {/* <Route path="/saibamais" element={<SaibaMais/>}/>
       <Route path="/entrecomcodigo" element={<EntreComCodigo/>}/> */}
     </Routes>
   );

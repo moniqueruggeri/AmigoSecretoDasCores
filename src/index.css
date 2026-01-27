@@ -96,7 +96,8 @@
   }
 
   .main::before,
-  .login::before {
+  .login::before,
+  .criarevento::before {
     content: "";
     position: absolute;
     inset: 0;
@@ -112,7 +113,24 @@
     z-index: -3;
   }
 
-  .login::before {
+  .login::before,
+  .criarevento::before {
     top: 0;
+  }
+
+  .active {
+    @apply text-(--rose)
+  }
+
+  .active span {
+    @apply text-white bg-(--rose) px-3.5 py-1.5 rounded-full text-xl
+  }
+
+  .form-tab:not(.active) span {
+    @apply text-white bg-[#838383] px-3.5 py-1.5 rounded-full text-xl
+  }
+
+  .form-tab:not(.active) {
+    @apply text-[#838383]
   }
 }
